@@ -1,0 +1,35 @@
+.task:focus{
+outline:none;
+}
+.task{
+    border:solid 5px white;
+    }
+.plus{
+    border: solid 3px white;
+    background-color: #ffc400;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.plus:hover{
+    color:#ffc400;
+    background-color: white;
+    border-color: #ffc400;
+}
+body{
+    background-color:mediumslateblue;
+}
+.tasks{
+    font-size: 30px;
+    padding-left: 0rem;
+}
+i{
+    padding-left: 20px;
+}
+.taskname{
+    padding-right:300px ;
+}
+ .finished{
+    text-decoration: line-through;
+} 
